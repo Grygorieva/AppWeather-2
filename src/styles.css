@@ -1,0 +1,132 @@
+h1 {
+  color: white;
+  padding-left: 15px;
+  font-size: 60px !important;
+}
+
+.today {
+  margin-top: 34px;
+  text-align: left;
+  font-size: 14px;
+  color: white;
+}
+
+h2 {
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-size: 16px !important;
+}
+.five-day {
+  font-size: 18px;
+  color: rgb(14, 13, 71);
+}
+
+.app {
+  margin: 70px 70px 0 0;
+  padding: 30px 20px;
+  max-width: 700px;
+  border-radius: 8px;
+  border: 1px solid rgb(211, 211, 211);
+  background: linear-gradient(
+    320deg,
+    rgb(82, 229, 231) 10%,
+    rgb(19, 12, 183) 100%
+  );
+}
+
+.my-form {
+  max-width: 580px;
+  margin-bottom: 20px;
+}
+
+.icon-cap-main {
+  margin-top: 10px;
+}
+
+.icon-cap {
+  margin-top: 40px;
+}
+
+#search {
+  padding: 7px 20px;
+}
+
+#current-btn {
+  left: 20 px;
+}
+
+.my-card-body {
+  text-align: center;
+  box-shadow: 0 0 15px rgba(22, 3, 98, 0.5);
+  border-radius: 5px;
+  background: linear-gradient(
+    320deg,
+    rgb(165, 223, 224) 10%,
+    rgb(167, 190, 235) 100%
+  );
+}
+
+.my-col {
+  margin: 5px;
+}
+
+.tex-top-card {
+  font-size: 12px;
+}
+
+.data-rigt-text {
+  text-align: right;
+}
+
+.weathe {
+  font-size: 12px;
+  text-align: central !important;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+#icon {
+  left: 0;
+}
+.temperature-today {
+  margin-left: 98px;
+  margin-top: -98px;
+}
+
+#temperature {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.rain {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.maine-rain {
+  margin-left: 36px;
+  margin-top: -36px;
+  color: white;
+}
+.cel-far {
+  font-size: 16px;
+  position: relative;
+  top: -28px;
+  color: rgb(117, 177, 218);
+}
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none !important;
+  color: rgb(117, 177, 218) !important;
+}
+
+#signed {
+  color: aliceblue;
+}
+
+.weather-forecast-temperatures-min {
+  opacity: 0.6;
+}
