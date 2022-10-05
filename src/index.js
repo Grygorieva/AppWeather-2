@@ -124,8 +124,6 @@ function handleSubmit(event) {
 let form = document.querySelector("#main-form");
 form.addEventListener("submit", handleSubmit);
 
-
-
 function searchLocation(position) {
   let apiKey = "ff50fec25423356941c07e6dc6faf1f9";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
