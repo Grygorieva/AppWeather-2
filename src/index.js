@@ -115,8 +115,6 @@ function search(city) {
   axios.get(apiUrl).then(displayTemperature);
 }
 
-//navigator.geolocation.getCurrentPosition(searchLocation);
-
 function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
@@ -126,38 +124,7 @@ function handleSubmit(event) {
 let form = document.querySelector("#main-form");
 form.addEventListener("submit", handleSubmit);
 
-// 3 - convert C to F
-//let celsius = document.querySelector("#celsius-link");
-//celsius.addEventListener("click", convertToCelsius);
 
-//let fahrenheit = document.querySelector("#fahrenheit-link");
-//fahrenheit.addEventListener("click", convertToFahrenheit);
-
-//function convertToCelsius(event) {
-//  event.preventDefault();
-//  let currentTemperature = document.querySelector("#temperature");
-//  currentTemperature.innerHTML = 19;
-//}
-
-//function convertToFahrenheit(event) {
-//  event.preventDefault();
-//  let currentTemperature = document.querySelector("#temperature");
-//  currentTemperature.innerHTML = 66;
-//}
-
-//function searchLocation(position) {
-//let apiKey = "ff50fec25423356941c07e6dc6faf1f9";
-//  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
-//  axios.get(apiUrl).then(displayWeather);
-//}
-
-//function getCurrentLocation(event) {
-//  event.preventDefault();
-//  navigator.geolocation.getCurrentPosition(searchLocation);
-//}
-
-// let currdateElemententTime = new Date();
-// dateElement.innerHTML = formatDate(currentTime);
 
 function searchLocation(position) {
   let apiKey = "ff50fec25423356941c07e6dc6faf1f9";
